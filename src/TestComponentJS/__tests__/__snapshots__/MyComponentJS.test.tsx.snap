@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render correctly 1`] = `
+<div
+  className="test-component-js"
+>
+  <h1>
+    1
+  </h1>
+  <p>
+    This is an example component.
+  </p>
+</div>
+`;

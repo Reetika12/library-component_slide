@@ -1,0 +1,120 @@
+@import 'src/Assets/variables/index';
+
+.slide {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	*,
+	*::before,
+	*::after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+.slide {
+	padding: $spacing-xs $spacing-xs 0px $spacing-xs;
+	background-color: $white;
+	border-radius: 8px;
+	border: solid 2px transparent;
+
+	&.slide--selected {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+	}
+
+	.slide__img_box {
+		width: 100%;
+		height: calc(100% - 32px);
+		display: flex;
+		align-items: center;
+		position: relative;
+	}
+
+	.slide__img {
+		border: solid 1px #c9c9c9;
+		height: 100%;
+		width: 100%;
+		flex: 1 1 auto;
+
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	.slide__viewed_action_icon {
+		width: 16px;
+		height: 16px;
+		margin: $spacing-xxs 0px;
+	}
+
+	.slide__zoom_action_icon {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+
+	.slide__actions_wrapper {
+		height: 100%;
+		flex: 0 0 40px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.slide__content_box {
+		display: flex;
+		align-items: center;
+		padding: $spacing-xxs 0px;
+		height: $spacing-xl;
+	}
+
+	.slide__slide_number {
+		font-family: 'Gotham-Medium';
+		font-size: 16px;
+		color: $black;
+		flex: 0 0 32px;
+		line-height: 1;
+	}
+
+	.slide__slide_name {
+		margin-right: $spacing-xxs;
+		font-family: 'Gotham-Medium';
+		font-size: 10px;
+		color: $black;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.slide__slide_timer {
+		font-family: 'Gotham-Medium';
+		font-size: 10px;
+		color: $black;
+	}
+
+	.slide__slide_left_content {
+		text-align: right;
+		margin-left: auto;
+		flex: 0 0 32px;
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+.slide.slide--mode-presenter {
+	padding-right: 0px;
+
+	&.slide--selected {
+		border: solid 1px $primary-brand-color;
+	}
+
+	&.slide--active {
+		border: solid 2px #4fc027;
+	}
+
+	.slide__content_box {
+		padding-right: $spacing-xs;
+	}
+}

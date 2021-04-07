@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'RobotoBold';
+  src: url("./Fonts/Roboto-Bold.ttf"); }
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url("./Fonts/Roboto-Medium.ttf"); }
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("./Fonts/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url("./Fonts/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: 'LoraBold';
+  src: url("./Fonts/Lora-Bold.ttf"); }
+
+@font-face {
+  font-family: 'LoraRegular';
+  src: url("./Fonts/Lora-Regular.ttf"); }
+
+@font-face {
+  font-family: 'LoraItalic';
+  src: url("./Fonts/Lora-Italic.ttf"); }
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url("./Fonts/Gotham-Medium.otf"); }
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("./Fonts/Gotham-Bold.otf"); }
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url("./Fonts/Gotham-Light.otf"); }
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url("./Fonts/Gotham-Book.otf"); }
+
+@keyframes leaves {
+  0% {
+      transform: scale(1, 1);
+      -webkit-transform: scale(1, 1);
+  }
+  25% {
+      transform: scale(0.98, 0.98);
+      -webkit-transform: scale(0.98, 0.98);
+  }
+  100% {
+      transform: scale(1, 1);
+      -webkit-transform: scale(1, 1);
+  }
+}
+
+
+@media (min-width: 340px) {
+ .responseFontSize {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .responseFontSize  {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .responseFontSize {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .responseFontSize {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render correctly 1`] = `
+<div
+  className="icon"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "cursor": "pointer",
+      "display": "flex",
+      "height": "40px",
+      "justifyContent": "center",
+      "position": "relative",
+      "width": "40px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "zIndex": 1,
+      }
+    }
+  >
+    <div />
+  </div>
+  <div
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Icon should render correctly for tappable area 1`] = `
+<div
+  className="icon"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "cursor": "pointer",
+      "display": "flex",
+      "height": "100px",
+      "justifyContent": "center",
+      "position": "relative",
+      "width": "100px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "zIndex": 1,
+      }
+    }
+  >
+    <div />
+  </div>
+  <div
+    style={
+      Object {
+        "height": "24px",
+        "width": "24px",
+      }
+    }
+  />
+</div>
+`;

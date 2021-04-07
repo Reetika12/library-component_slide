@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slide should render correctly for cms 1`] = `
+<div
+  className="slide "
+  onClick={[Function]}
+  style={
+    Object {
+      "height": " 124px",
+      "width": "176px",
+    }
+  }
+>
+  <div
+    className="slide__img_box"
+  >
+    <div
+      className="slide__img"
+    >
+      <img
+        alt="slide"
+        src="https://www.asiatechdaily.com/wp-content/uploads/2020/01/Byjus-770x433.jpg"
+      />
+    </div>
+  </div>
+  <div
+    className="slide__content_box"
+  >
+    <div
+      className="slide__slide_number"
+    >
+      01
+    </div>
+    <div
+      className="slide__slide_name"
+    >
+      Live Quiz with large name going out
+    </div>
+    <div
+      className="slide__slide_left_content"
+    >
+      <div
+        className="slide__slide_timer"
+      >
+        3 Min
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Slide should render new slide correctly for cms 1`] = `
+<div
+  className="slide "
+  onClick={[Function]}
+  style={
+    Object {
+      "height": " 124px",
+      "width": "176px",
+    }
+  }
+>
+  <div
+    className="slide__img_box"
+  >
+    <div
+      className="slide__img"
+    >
+      <img
+        alt="slide"
+        src="https://www.asiatechdaily.com/wp-content/uploads/2020/01/Byjus-770x433.jpg"
+      />
+    </div>
+  </div>
+  <div
+    className="slide__content_box"
+  >
+    <div
+      className="slide__slide_name"
+    >
+      New Slide
+    </div>
+    <div
+      className="slide__slide_left_content"
+    />
+  </div>
+</div>
+`;

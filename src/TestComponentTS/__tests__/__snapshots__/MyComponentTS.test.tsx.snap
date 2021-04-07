@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponentTS should render correctly 1`] = `
+<div
+  className="test-component-ts"
+>
+  <h1>
+    1
+  </h1>
+  <h2>
+    World
+  </h2>
+  <p>
+    This is an e1xample component of Typescript component
+  </p>
+</div>
+`;
